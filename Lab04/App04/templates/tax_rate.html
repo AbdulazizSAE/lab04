@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Tax Rate</title>
+</head>
+<body>
+    <h1>The Current Tax Rate</h1>
+    <h2>{{ tax_rate|floatformat:2 }}%</h2>
+    <p><a href="{% url 'home' %}">Go back to the homepage</a></p>
+</body>
+</html>
